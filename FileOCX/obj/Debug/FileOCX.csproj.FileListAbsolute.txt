@@ -1,0 +1,8 @@
+C:\Users\jueme\Desktop\FileOCX\bin\Debug\FileOCX.dll
+C:\Users\jueme\Desktop\FileOCX\bin\Debug\FileOCX.pdb
+C:\Users\jueme\Desktop\FileOCX\obj\Debug\FileOCX.dll
+C:\Users\jueme\Desktop\FileOCX\obj\Debug\FileOCX.pdb
+C:\Users\jueme\Desktop\FileOCX\bin\Debug\FileOCX.tlb
+C:\Users\jueme\Desktop\FileOCX\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jueme\Desktop\FileOCX\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jueme\Desktop\FileOCX\obj\Debug\FileOCX.csprojResolveAssemblyReference.cache
