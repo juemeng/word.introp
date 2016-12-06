@@ -12,20 +12,34 @@
 
   <!-- Our activeX object -->
   <OBJECT id="OurActiveX" name=OurActiveX" classid="clsid:EFA92E6A-1DFB-4F6C-A51E-5E094213510A" VIEWASTEXT codebase="OurActiveX.cab"></OBJECT>	
-
+  <img id="myImg" src=""/>
+  <img id="myImg1" src="" />
+      <img id="myImg2" src="" />
+      <img id="myImg3" src="" />
 
 <script language="javascript">
 	//Passing parameters to ActiveX object and starting application
         function OpenActiveX()
         {
 	        try {
-	            document.OurActiveX.Directory = "e:\\1"; //Passing parameter to the ActiveX
-	            var arr = document.OurActiveX.GetFiles();
-	            //Running method from activeX
-	            alert(arr);
-//	            for (var i = 0; i < arr.length; i++) {
-//	                alert(arr[i]);
-//	            }
+	            document.OurActiveX.Directory = "C:\\test"; //Passing parameter to the ActiveX
+
+	            var files = document.OurActiveX.GetFiles(4);
+	            
+
+	            var image = document.OurActiveX.GetImage(files[0]);
+	            var image1 = document.OurActiveX.GetImage("C:\\test\\2.jpg");
+	            var image2 = document.OurActiveX.GetImage("C:\\test\\3.gif");
+	            var image3 = document.OurActiveX.GetImage("C:\\test\\4.png");
+
+	            document.getElementById("myImg").setAttribute('src',image);
+	            document.getElementById("myImg1").setAttribute('src', image1);
+	            document.getElementById("myImg2").setAttribute('src', image2);
+	            document.getElementById("myImg3").setAttribute('src', image3);
+	            //alert(arr);
+	            //for (var i = 0; i < arr.length; i++) {
+	            //    alert(arr[i]);
+	            //}
 	        }
 	        catch(Err)
 	        {

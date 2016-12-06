@@ -1,0 +1,29 @@
+REGEDIT4
+
+[HKEY_CLASSES_ROOT\VTM.FileActiveX]
+@="FileOCX.ActiveXObject"
+
+[HKEY_CLASSES_ROOT\VTM.FileActiveX\CLSID]
+@="{EFA92E6A-1DFB-4F6C-A51E-5E094213510A}"
+
+[HKEY_CLASSES_ROOT\CLSID\{EFA92E6A-1DFB-4F6C-A51E-5E094213510A}]
+@="FileOCX.ActiveXObject"
+
+[HKEY_CLASSES_ROOT\CLSID\{EFA92E6A-1DFB-4F6C-A51E-5E094213510A}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="FileOCX.ActiveXObject"
+"Assembly"="FileOCX, Version=1.0.6160.28180, Culture=neutral, PublicKeyToken=45c99a0c95e09805"
+"RuntimeVersion"="v2.0.50727"
+"CodeBase"="file:///C:/FileOCX/bin/Debug/FileOCX.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{EFA92E6A-1DFB-4F6C-A51E-5E094213510A}\InprocServer32\1.0.6160.28180]
+"Class"="FileOCX.ActiveXObject"
+"Assembly"="FileOCX, Version=1.0.6160.28180, Culture=neutral, PublicKeyToken=45c99a0c95e09805"
+"RuntimeVersion"="v2.0.50727"
+"CodeBase"="file:///C:/FileOCX/bin/Debug/FileOCX.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{EFA92E6A-1DFB-4F6C-A51E-5E094213510A}\ProgId]
+@="VTM.FileActiveX"
+
+[HKEY_CLASSES_ROOT\CLSID\{EFA92E6A-1DFB-4F6C-A51E-5E094213510A}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
